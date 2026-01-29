@@ -1,0 +1,15 @@
+{
+  "name": "dr-kals-virtual-hospital",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "frontend": "npm run dev --workspace=frontend",
+    "backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspaces",
+    "install-all": "npm install"
+  }
+}
